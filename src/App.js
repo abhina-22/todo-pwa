@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import TodoContainer from "./Components/TodoContainer";
+import TodoPage from "./Components/TodoPage";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TodoContainer />
+        <TodoPage />
       </header>
     </div>
   );
